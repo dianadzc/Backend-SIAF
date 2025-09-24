@@ -8,7 +8,7 @@ const inventoryRoutes = require('./routes/inventory');
 const incidentsRoutes = require('./routes/incidents');
 const maintenanceRoutes = require('./routes/maintenance');
 const responsiveFormsRoutes = require('./routes/responsiveForms');
-const requisitionsRoutes = require('./routes/requisitions');
+//const requisitionsRoutes = require('./routes/requisitions');
 const reportsRoutes = require('./routes/reports');
 
 const app = express();
@@ -26,7 +26,7 @@ app.use('/api/inventory', inventoryRoutes);
 app.use('/api/incidents', incidentsRoutes);
 app.use('/api/maintenance', maintenanceRoutes);
 app.use('/api/responsive-forms', responsiveFormsRoutes);
-app.use('/api/requisitions', requisitionsRoutes);
+//app.use('/api/requisitions', requisitionsRoutes);
 app.use('/api/reports', reportsRoutes);
 
 // Ruta principal
